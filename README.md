@@ -29,4 +29,4 @@ The DMD Algorithm steps are as following:
 
 1-Compute the SVD of X
 
-![](http://latex.codecogs.com/gif.download?X%3DU%20%5CSigma%20V%5E%7B*%7D)
+![](http://latex.codecogs.com/gif.latex?X%3DU%20%5CSigma%20V%5E%7B*%7D)
