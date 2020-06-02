@@ -15,9 +15,19 @@ The brain is a remarkably complex organ and understanding how networks of brain 
 
 As in almost every other field of science and engineering, PCA and ICA widely used as a decomposition algorithm to analyze neural data in order to dimensionality reduction components of the high-dimensional data space.
 
-Time-series data has the additional feature that snapshots of data are acquired in se- quence in time, and methods that leverage this temporal relationship are often able to capture low-dimensional structures hidden from purely static methods. 
+Time-series data has the additional feature that snapshots of data are acquired in sequence in time, and methods that leverage this temporal relationship are often able to capture low-dimensional structures hidden from purely static methods. 
 
 Dynamic mode decomposition (DMD), which is a powerful new technique for the discovery of dynamical systems from high-dimensional data. The growing success of DMD stems from the fact that it is an equation-free, data-driven method capable of providing an accurate decomposition of a complex system into spatiotemporal coherent structures.
 
 In this project I will use DMD Algorithm to construct the modes of brain activities during resting-state.
+
+## What is Dynamic Mode Decomposition?
+
+## Dynamic Mode Decomposition Algorithm
+
+The DMD Algorithm steps are as following:
+
+1-Compute the $SVD$ of $X$
+
+$X=U\SigmaV{*}$
 
