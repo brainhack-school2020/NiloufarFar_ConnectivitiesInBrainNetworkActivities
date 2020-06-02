@@ -27,7 +27,9 @@ In this project I will use DMD Algorithm to construct the modes of brain activit
 
 The DMD Algorithm steps are as following:
 
-1-Compute the $SVD$ of $X$
+1-Compute the SVD of X
 
-$X=U\SigmaV{*}$
+\begin{equation}
+X=U\SigmaV^{*}
+\end{equation}
 
