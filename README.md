@@ -27,7 +27,7 @@ In this project I will use DMD Algorithm to construct the modes of brain activit
 
 The DMD Algorithm steps are as following:
 
-1-Compute the SVD of X
+1- Compute the SVD of X
 
 ![equation](http://latex.codecogs.com/png.latex?X%3DU%20%5CSigma%20V%5E%7B*%7D)
 
@@ -39,4 +39,8 @@ Step 3- Compute the eigenvalues and eigenvectors of Ã
 
 ![equation](http://latex.codecogs.com/png.latex?%5Ctilde%7BA%7DW%3DW%5CLambda)
 
+Step 4- Reconstruct the eigendecomposition of A from calculated eigenvalues and eigenvectors
 
+![equation](http://latex.codecogs.com/png.latex?A%20%5Cphi%20%3D%20%5Cphi%20%5CLambda%20%2C)
+
+![equation](http://latex.codecogs.com/png.latex?%5Cphi%20%3D%20X%27%20V%20%5CSigma%5E%7B-1%7D%20W)
