@@ -35,4 +35,8 @@ The DMD Algorithm steps are as following:
 
 ![equation](http://latex.codecogs.com/gif.latex?%5Ctilde%7BA%7D%3DU%5E%7B*%7DAU%3DU%5E%7B*%7DX%27V%5CSigma%20%5E%7B-1%7D)
 
+Step 3- Compute the eigenvalues and eigenvectors of Ã
+
+![equation](http://latex.codecogs.com/png.latex?%5Ctilde%7BA%7DW%3DW%5CLambda)
+
 
