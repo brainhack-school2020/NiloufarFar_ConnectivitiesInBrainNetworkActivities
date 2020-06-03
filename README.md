@@ -30,3 +30,9 @@ The DMD Algorithm steps are as following:
 1-Compute the SVD of X
 
 ![equation](http://latex.codecogs.com/png.latex?X%3DU%20%5CSigma%20V%5E%7B*%7D)
+
+2- Compute Ã, the projection of the full matrix A onto U
+
+![equation](http://latex.codecogs.com/gif.latex?%5Ctilde%7BA%7D%3DU%5E%7B*%7DAU%3DU%5E%7B*%7DX%27V%5CSigma%20%5E%7B-1%7D)
+
+
