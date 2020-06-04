@@ -21,6 +21,10 @@ Dynamic mode decomposition (DMD), which is a powerful new technique for the disc
 
 In this project I will use DMD Algorithm to construct the modes of brain activities during resting-state.
 
+## Data
+
+Used data is from the Human Connectome Project(HCP) 7 Tesla fMRI dataset, mapping in 181 healthy young adults (1.6-mm resolution), which is the largest freely available collection of retinotopy data. We have selected the first eleven samples with the highest quality. The atlas used on data is Harvard-Oxford atlas that it considers the probability distribution for each brain region, on display.
+
 ## What is Dynamic Mode Decomposition?
 
 Dynamic mode decomposition is a powerful data-driven method to extract spatial-temporal coherent structures( DMD modes) from high dimensional data and give you a linear model for how those evolve in time.
