@@ -23,6 +23,16 @@ In this project I will use DMD Algorithm to construct the modes of brain activit
 
 ## What is Dynamic Mode Decomposition?
 
+Dynamic mode decomposition is a powerful data-driven method to extract spatial-temporal coherent structures( DMD modes) from high dimensional data and give you a linear model for how those evolve in time.
+
+DMD computes the leading eigendecomposition of the best-fit linear operator A relating the data X′ ≈ AX : 
+
+![equation](http://latex.codecogs.com/png.latex?A%3DX%27%20X%5E%5Cdag)
+
+(X is what we have about the system in m-1 snapshots, X' is the data of the system in next snapshot, A is an operator that helps to predict the behavior of the system)
+
+The DMD modes, also called dynamic modes, are the eigenvectors of A and each DMD mode corresponds to a particular eigenvalue of A. 
+
 ## Dynamic Mode Decomposition Algorithm
 
 The DMD Algorithm steps are as following:
