@@ -28,7 +28,6 @@ Used data is from the Human Connectome Project(HCP) 7 Tesla fMRI dataset, mappin
 ## Preprocess
 The atlas used on data is Harvard-Oxford atlas that it considers the probability distribution for each brain region, on display.
 For preprocessing we used Nilearn which is a useful package for working with neuroimaging data.
-
 In order to prepare the data with a format that is required for the DMD Algorithm matrices, converting the neuroimages data into a time series data structure is essential.
 
 In the following, I will explain more about the Dynamic Mode Decomposition Method(DMD).
