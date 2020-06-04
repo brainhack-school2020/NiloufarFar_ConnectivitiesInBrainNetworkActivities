@@ -23,7 +23,15 @@ In this project I will use DMD Algorithm to construct the modes of brain activit
 
 ## Data
 
-Used data is from the Human Connectome Project(HCP) 7 Tesla fMRI dataset, mapping in 181 healthy young adults (1.6-mm resolution), which is the largest freely available collection of retinotopy data. We have selected the first eleven samples with the highest quality. The atlas used on data is Harvard-Oxford atlas that it considers the probability distribution for each brain region, on display.
+Used data is from the Human Connectome Project(HCP) 7 Tesla fMRI dataset, mapping in 181 healthy young adults (1.6-mm resolution), which is the largest freely available collection of retinotopy data. We have selected the first eleven samples with the highest quality. 
+
+## Preprocess
+The atlas used on data is Harvard-Oxford atlas that it considers the probability distribution for each brain region, on display.
+For preprocessing we used Nilearn which is a useful package for working with neuroimaging data.
+
+In order to prepare the data with a format that is required for the DMD Algorithm matrices, converting the neuroimages data into a time series data structure is essential.
+
+In the following, I will explain more about the Dynamic Mode Decomposition Method(DMD).
 
 ## What is Dynamic Mode Decomposition?
 
