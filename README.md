@@ -1,4 +1,4 @@
-# Connectivities in Brain Network Activities
+# Dynamic modes of the Brain
 ## Abstract
  Brain networks are invariably complex, share several common features with networks from other biological and physical systems, and may hence be characterized using complex systems methods. 
 
