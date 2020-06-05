@@ -65,3 +65,11 @@ Step 4- Reconstruct the eigendecomposition of A from calculated eigenvalues and 
 ![equation](http://latex.codecogs.com/png.latex?A%20%5Cphi%20%3D%20%5Cphi%20%5CLambda%20%2C)
 
 ![equation](http://latex.codecogs.com/png.latex?%5Cphi%20%3D%20X%27%20V%20%5CSigma%5E%7B-1%7D%20W)
+
+## References
+Dynamic Mode Decomposition Book: http://dmdbook.com
+
+Dynamic Mode Decomposition Youtube Video: https://www.youtube.com/watch?v=sQvrK8AGCAo&t=118s
+
+Dynamic mode decomposition of resting-state and task fMRI Paper: https://miplab.epfl.ch/pub/casorso1901.pdf
+
